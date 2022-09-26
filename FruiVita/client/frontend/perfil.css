@@ -1,0 +1,50 @@
+		* {
+			font-family: 'Ubuntu', sans-serif;
+		}
+		
+		body {
+			background-color: #fff; 			
+			text-align: center;			
+			margin: 60px;
+		 }
+		 
+		 .container {
+			background-color: #f1f1f1; 	
+			padding: 25px;
+			text-align: center;			
+		 }
+		 
+		 h1 {
+			color: #2E2E2E;
+		 }
+		 
+		 h2 {
+			color: #2E2E2E
+			font-size: 14px;
+		 }
+		 
+		 .about h1 {
+		  font-size: 16px;
+		 }
+		 
+		 .about p {
+			color: #A5A5A5;
+			font-weight: 400;
+		 }
+		 
+		 .about {
+			padding: 30px;
+			margin: 30px;
+			background-color: #fff; 
+			border-radius: 0%;
+			text-align: center;
+		 }
+		
+		img.PerfilPadrao {
+			width:200px;
+			border-radius: 50%;
+		}
+		
+		.negrito {
+			font-weight: 700;
+		}

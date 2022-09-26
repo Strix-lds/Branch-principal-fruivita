@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <html lang="pt-br">
+    <meta charset='utf-8'>
+    <title>Cadastrar</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='https://www.google.com/recaptcha/api.js?hl=pt-BR'></script>
+</head>
+<body style="background-image: url(img/fruit\ vita\ background\ login.png);">
+    <form>
+        <div  class="form-login">
+            <a href="index.html"><img src="img/logo fui vita.png" width="150" height="auto"></a>
+            <div class="input-nome-sobrenome"> 
+                <input class="input-digit" type="text" name="nome" placeholder="Nome" required id="input-nome">
+                <input class="input-digit" type="text" name="sobrenome" placeholder="Sobrenome" required>
+            </div>
+            <input class="input-digit" type="email" name="email" placeholder="E-mail" required>
+            <div class="input-nascimento">
+                <p>Data de Nascimento:</p>
+                <input type="date" name="Nascimento" required>
+            </div>
+            <input class="input-digit" type="text" name="local" placeholder="CEP" required>
+
+            <div class="form-senha-confirm">
+                <input class="input-digit" type="password" name="senha" placeholder="Senha" required id="password">
+                <input class="input-digit" type="password" name="confirmar senha" placeholder="Confimar senha" required id="confirm_password">
+            </div>
+
+            <div class="g-recaptcha" data-sitekey="6LdjmH4hAAAAANML-5Bwu6N0HCh-0wvyugqgUhDo"></div>
+
+            <div class="politicapriv">
+                <input class="input_box" type="checkbox" name="Privacidade" required>
+                <p> Eu li e aceito as <a href = "https://docs.google.com/document/d/19tmpDoDoe8RBbycP7BdpXBz5grf8fUe8B033Wbn7qvs/edit?usp=sharing" target="_blank" rel="external"> políticas de privacidade</a></p>
+            </div>
+                <div class="termosuso">
+                <input class="input_box" type="checkbox" name="TermosUso" required>
+                <p> Eu li e aceito os <a href = "https://docs.google.com/document/d/1_-qouD2vTNn1fu4XBm-jQ5gAS9bYRIUxp-5U2LB4x7A/edit?usp=sharing" target="_blank" rel="external"> termos de uso</a></p>
+            </div>
+            <input class="input-submit" type="submit" name="acao" placeholder="Cadastrar" value="Cadastrar">
+            <a class="link" href="login.html"><p class="cadastrar">Já tenho conta</p></a>
+            </div>
+    </form>
+
+    <footer>
+        <div class="wrapper">
+            <div class="footer-box">
+                <a href="index.html"><img src="img/logo fui vita.png" alt="Logo" height="150px" width="auto"></a>
+                <h2>FruiVita Naturais</h2>
+                <p>Prezamos a segurança de nossos usuários e qualidade dos produtos.</h2>
+            </div>
+            <div class="footer-box">
+                <dic class="articles-footer">
+                    <h2>Mais</h2>
+                    <ul class="footer-list footer-article-list">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="https://docs.google.com/document/d/1ma5bjYxuGSsdu3sbfxKzrgvGpQDCXV-6hSqLgWKHKIU/edit?usp=sharing" rel="external" target="_blank">Sobre nós</a>
+                        </li>
+                        <li>
+                            <a href = "https://docs.google.com/document/d/1_-qouD2vTNn1fu4XBm-jQ5gAS9bYRIUxp-5U2LB4x7A/edit?usp=sharing" target="_blank" rel="external">Termos de uso</a>
+                        </li>
+                        <li>
+                            <a href="https://docs.google.com/document/d/19tmpDoDoe8RBbycP7BdpXBz5grf8fUe8B033Wbn7qvs/edit?usp=sharing"  target="_blank" rel="external">Política de privacidade</a>
+                        </li>
+                    </ul>
+                </dic>
+            </div>
+            <div class="footer-box">
+                <h2>Também nos encontre nas redes sociais!</h2>
+                <div class="redes">
+                <ul class="footer-list">
+                    <li>
+                        <a href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2Fmessage%2FWZXKC6QZIJQ5D1&e=ATPt2zVmiasbYazYsBZ4fM4RHFOidCCet19WnhgufTLGAh2Ad3wvJfcD0Tnrud0fnj_9moJbvj1-9OFBT_CFliTdaAgpQp0E6EFE81M&s=1" target="_blank" rel="external">
+                            <img src="img/whatsapp.png" alt="Whatsapp" width="50px" height="auto">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://pt-br.facebook.com/login/device-based/regular/login/" target="_blank" rel="external">
+                            <img src="img/facebook.png" alt="Facebook" width="50px" height="auto">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/fruivita_naturais/" target="_blank" rel="external">
+                            <img src="img/instagram.png" alt="Instagram"width="50px" height="auto">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/DITR_Pop/status/1554147591146938374?t=f3VhFK7SOj6-91f7_hmEbg&s=19" target="_blank" rel="external">
+                            <img src="img/twitter.png" alt="Twitter"width="50px" height="auto">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="wrapper">
+                <p>© 2022 Frui Vita. All Right Reserved</p>
+            </div>
+        </div>
+  </footer>
+
+    <script>       
+    </script>
+</body>
+</html>
